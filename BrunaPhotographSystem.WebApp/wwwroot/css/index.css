@@ -1,0 +1,312 @@
+h2, h3 {
+    font-family: 'Fredoka One', cursive;
+    clear: left;
+    margin-left: 20px;
+}
+h3{
+	margin-left:40px;
+}
+main {
+    padding-bottom: 0;
+    float: right;
+    width: 85%;
+    
+    font-family: 'Fredoka One', cursive;
+}
+    main h1 {
+        background-image: url(/images/HeaderBack.jpg);
+        background-size: 100%;
+        font-size: 40px;
+        color: transparent;
+        text-align: center;
+        //padding: 40px;
+        padding: 18%;
+        border-bottom: 10px solid #000000;
+        text-transform: uppercase;
+        --font-family: 'Germania One', cursive;
+        --font-family: 'Indie Flower', cursive;
+    }
+      //  main h1:hover, main h1:active{
+        //    padding: 40px;
+        //    transition: 2s;
+           
+        //}
+.gaveta {
+    padding: 40px;
+    transition: 2s;
+}
+        main h1:fo
+        html, body {
+            overflow-x: hidden;
+            height: 100%;
+        }
+body {
+    font-family: 'Fredoka One', cursive;
+    background-color: #F2FFFC;
+    font-size: 120%;
+    line-height: 1.5;
+    ---webkit-perspective: 6px;
+    -- perspective: 6px;
+    ---webkit-perspective-origin: 50% 160px;
+    -- perspective-origin: 50% 160px;
+}
+.container {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+}
+main 
+blockquote{
+	background-color:#d3d3d3;
+	border:10px solid #808080;
+	width:60%;
+    font-size:10px;
+	box-sizing:border-box;
+	margin-left: 40px;
+	float:right;
+    clear:right;
+    margin-top:-5%;
+    display:block;
+	
+			
+}
+
+p{
+	text-align:justify;
+	margin-left: 20px;
+}
+
+
+.secao-inicio {
+    width: 100%;
+    clear:both;
+    margin: auto;
+}
+
+    .secao-inicio h2 {
+        font-size: 40px;
+        text-transform: uppercase;
+        --margin-bottom: .5em;
+        text-shadow: 2px 2px #000;
+    }
+
+.trabalhos {
+    font-family: 'Fredoka One', cursive;
+    background-color: black;
+    border-top: .5em solid #000;
+    border-bottom: .5em solid #000;
+    --background-image: linear-gradient(135deg, transparent, transparent 14px, rgba(0,0,0,.1) 14px, rgba(0,0,0,.1) 15px, transparent 15px, transparent);
+    --background-size: 20px 20px;
+    --background-attachment: fixed;
+    
+}
+
+.trabalhos h2 {
+    color: #FFF;
+}
+
+.trabalhos ul {
+    
+}
+
+.trabalhos li {
+    display: inline-block;
+    width: 28%;
+    padding:0% 2%;
+}
+
+.trabalhos img {
+    width:100%;
+    display: block;
+    --border: .5em solid black;
+    --box-shadow: black 20px 20px inset;
+}
+#imagem-hover1:hover {
+    transform: translateX(75%) translateY(-75%) scale(2);
+    box-shadow: 0 0 0 99999px rgba(0,0,0,.9);
+    transition: .5s;
+}
+#imagem-hover2:hover {
+    transform: translateY(-75%) scale(2);
+    box-shadow: 0 0 0 99999px rgba(0,0,0,.9);
+    transition: .5s;
+}
+#imagem-hover3:hover {
+    transform: translateX(-75%) translateY(-75%) scale(2);
+    box-shadow: 0 0 0 99999px rgba(0,0,0,.9);
+    transition: .5s;
+}
+
+aside h1 {
+    font-size: 40px;
+}
+
+aside nav {
+    background: #000000;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: 'Fredoka One', cursive;
+    float: left;
+    clear: left;
+    width: 15%;
+    text-align: center;
+    box-sizing: border-box;
+    padding:4.5px;
+}
+
+.imagem {
+    width: 15%;
+    height: 250px;
+    float: left;
+    box-sizing: border-box;
+    border: 10px solid #000000;
+}
+
+main h2 {
+    font-size: 40px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.facebook {
+    text-indent: -9999px;
+    background-image: url(facebook.png);
+}
+
+.icones-redes-sociais li {
+    display: inline-block;
+}
+
+.icones-redes-sociais a {
+    width: 32px;
+    height: 32px;
+    display: block;
+    text-indent: -99999px;
+}
+
+footer {
+    background: #000000;
+    color: #FFFFFF;
+    clear: both;
+    width: 100%;
+    padding: 30px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+.palavras-home {
+-webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+position: absolute;
+bottom: 0;
+right: 0;
+top: 0;
+left: 0;
+}
+.palavra-home {
+font-family: "Shadows Into Light", cursive;
+font-weight: bold;
+font-size: 400%;
+color: #D5447E;
+position: absolute;
+}
+.eficiencia {
+top: 50%;
+left: 60%;
+-webkit-transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
+        transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
+}
+.boas-praticas {
+top: 70%;
+left: 20%;
+-webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(10deg) scale(.25);
+        transform: translate(-50%, -50%) translateZ(1px) rotate(10deg) scale(.25);
+}
+.codigo-limpo {
+top: 45%;
+left: 25%;
+-webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg) scale(.25);
+        transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg) scale(.25);
+}
+.css3 {
+top: 55%;
+left: 35%;
+-webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(5deg) scale(.25);
+}
+.html5 {
+    top: 30%;
+    left: 65%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+}
+.javascript {
+    top: 15%;
+    left: 60%;
+    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
+}
+.acessibilidade {
+    top: 30%;
+    left: 35%;
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
+}
+.responsivo {
+    top: 40%;
+    left: 40%;
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.25);
+}
+.otimizacoes {
+    top: 70%;
+    left: 65%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg) scale(.25);
+}
+.agilidade {
+    top: 75%;
+    left: 35%;
+    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(1px) rotate(5deg) scale(.25);
+}
+.design {
+    top: 40%;
+    left: 60%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+}
+.titulo-principal {
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    position: relative;
+}
+.banner-twitter {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    line-height: 1;
+
+    /* largura = 14em */
+    /* altura = 3.5em */
+    /* tx = .707 * h - .707 * w + w */
+    /* ty = -.707 * h */
+    -webkit-transform: translate(6.5765em, -2.4745em) rotate(45deg);
+            transform: translate(6.5765em, -2.4745em) rotate(45deg);
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+
+    width: 14em;
+    padding: 1em 0;
+    box-sizing: border-box;
+
+    text-align: center;
+    text-decoration: none;
+    background-color: #3C1D3D;
+    color: white;
+    border: .25em solid black;
+
+    font-size: 1.2em;
+    font-family: "Open Sans Condensed", sans-serif;
+}

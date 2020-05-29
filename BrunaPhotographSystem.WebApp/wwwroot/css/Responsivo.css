@@ -1,0 +1,117 @@
+﻿
+
+#PainelDesc {
+    margin-top:20px;
+}
+body   {
+    background-color:black;
+}
+.MenuNavegacao {
+    background-color: black;
+}
+
+.Titulo {
+    color: white;
+}
+.login{
+    margin-top:10px;
+}
+.Form-login{
+    width:250px;
+}
+#imagem-hover1:hover {
+    transform: translateX(75%) translateY(-75%) scale(2);
+    box-shadow: 0 0 0 99999px rgba(0,0,0,.9);
+    transition: .5s;
+}
+
+#imagem-hover2:hover {
+    transform: translateY(-75%) scale(2);
+    box-shadow: 0 0 0 99999px rgba(0,0,0,.9);
+    transition: .5s;
+}
+
+#imagem-hover3:hover {
+    transform: translateX(-75%) translateY(-75%) scale(2);
+    box-shadow: 0 0 0 99999px rgba(0,0,0,.9);
+    transition: .5s;
+}
+.trabalhos img {
+    width: 100%;
+    display: block;
+    border: .5em solid white;
+    box-shadow: white 20px 20px inset;
+}
+.trabalhos h2 {
+    color: #FFF;
+}
+
+.NaoCheckInput {
+    display: none;
+}
+.NaoCheckInput:checked
+{
+    border: 5px solid white; 
+}
+
+.NaoCheckImg {
+    cursor: pointer;
+}
+
+
+.trabalhos li {
+    display: inline-block;
+    width: 28%;
+    padding: 0% 2%;
+}
+.secao-inicio {
+    width: 100%;
+    clear: both;
+    margin: auto;
+}
+
+.secao-inicio h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px white;
+}
+
+footer {
+    background: #000000;
+    color: #FFFFFF;
+    clear: both;
+    width: 100%;
+    padding: 30px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+.Menu {
+    border: .25em solid white;
+    background-color: #6ac7ff;
+}
+.icones-redes-sociais li{
+    display: inline-block;
+}
+.facebook {
+    background-image: url(/images/Facebook-icon.png);
+    width: 24px;
+    height: 24px;
+    display:block;
+    text-indent: -99999px;
+}
+.twitter {
+    background-image: url(/images/Twitter-icon.png);
+    width: 24px;
+    height: 24px;
+    display: block;
+    text-indent: -99999px;
+}
+.instagram {
+    background-image: url(/images/Instagram-icon.png);
+    width: 24px;
+    height: 24px;
+    display: block;
+    text-indent: -99999px;
+}
+

@@ -1,0 +1,102 @@
+﻿@model BrunaPhotographSystem.DomainModel.Entities.Pedido
+@using BrunaPhotographSystem.DomainModel.Entities
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="~/css/reset.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="~/css/Responsivo.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./path/to/dropzone.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Create</title>
+</head>
+<body>
+    <div class="container">
+        <p class="ml-4 display-1 text-light mx-auto"><strong>Pedido</strong></p>
+        <hr />
+
+        <div class="col-md-6">
+            <form style="color:white;" asp-action="CadastrarNovo">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" class="form-control" />
+                <div class="form-group">
+                    <label asp-for="DataPedido" class="control-label"></label>
+                    <input asp-for="DataPedido" class="form-control" />
+                    <span asp-validation-for="DataPedido" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label asp-for="Cliente.Id" class="input-group-text" for="inputGroupSelect01">Cliente</label>
+                        </div>
+                        <select asp-for="Cliente.Id" class="custom-select" id="inputGroupSelect01">
+
+                            <option selected value=@ViewBag.Clientes.Id>@ViewBag.Clientes.Nome</option>
+
+                        </select>
+                        <span asp-validation-for="Cliente.Id" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="card-columns">
+                    @{
+                        IEnumerable<PedidoFotoProduto> fotosSelecionadas = ViewBag.FotosSelecionadas;
+                    }
+                    @foreach (var produto in ViewBag.Produtos)
+                    {
+                        if (fotosSelecionadas != null)
+                        {
+                            if (@fotosSelecionadas.Where(f => f.FotoProduto.Produto.Id == produto.Id).Any())
+                            {@Html.Raw("<div class=\"card text-white border-white bg-dark \" style=\"max-width: 25rem;\">")}
+
+                        else
+                        { @Html.Raw("<div class=\"card border-black bg-dark\" style =\"max-width: 25rem;\">")}
+                }
+                else
+                {
+                    @Html.Raw("<div class=\"card text-white border-dark bg-dark \" style=\"max-width: 25rem;\">")
+                }
+                <div class="card-header">@produto.Nome</div>
+                <div class="card-body">
+                    <p class="card-text"><small class="text-muted">@produto.Descricao</small></p>
+                    @if (fotosSelecionadas != null)
+                    {
+                        if (@fotosSelecionadas.Where(f => f.FotoProduto.Produto.Id == produto.Id).Any())
+                        {
+                            <a asp-action="AdicionarFotos" asp-route-pedido="@Model.Id" asp-route-produto="@produto.Id" asp-route-dataPedido="@Model.DataPedido" class="btn btn-outline-primary btn-sm stretched-link">
+                                Fotos
+                                <span class="badge badge-light">@fotosSelecionadas.Where(f => f.FotoProduto.Produto.Id == produto.Id).Count()</span>
+
+                            </a> }
+                        else
+                        { <a asp-action="AdicionarFotos" asp-route-pedido="@Model.Id" asp-route-produto="@produto.Id" asp-route-dataPedido="@Model.DataPedido" class="btn btn-outline-primary btn-sm stretched-link">Fotos</a>}
+
+                    }
+                    else
+                    {
+                        <a asp-action="AdicionarFotos" asp-route-pedido="@Model.Id" asp-route-produto="@produto.Id" asp-route-dataPedido="@Model.DataPedido" class="btn btn-outline-primary btn-sm stretched-link">Fotos</a>}
+                </div>
+                @Html.Raw("</div>")
+            }
+                </div>
+
+                <div class="form-group">
+                    <a asp-action="Index" class="btn btn-outline-info btn-sm">Voltar a Lista</a>
+                    <input type="submit" value="Criar" class="btn btn-outline-primary btn-sm" />
+                </div>
+            </form>
+        </div>
+    
+    
+</div>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+﻿@model BrunaPhotographSystem.DomainModel.Entities.Cliente
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="~/css/reset.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="~/css/Responsivo.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Remover</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div>
+            <p class="ml-4 display-1 text-light mx-auto"><strong>Cliente</strong></p>
+            <hr />
+            <h3 class="text-light">Você deseja deletar este Cliente?</h3>
+            <dl style="color:white;" class="mt-3 dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Id)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Id)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Nome)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Email)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Email)
+                </dd>
+
+
+            </dl>
+
+            <form asp-action="RemoverCliente">
+                <input type="hidden" asp-for="Id" class="form-control" />
+                <a asp-action="Index" class="btn btn-outline-info btn-sm">Voltar a Lista</a>
+                <input type="submit" value="Deletar" class="btn btn-outline-danger btn-sm" /> |
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>

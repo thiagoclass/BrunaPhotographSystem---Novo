@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BrunaPhotographSystem.DomainModel.Entities.Album">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAABAAAAAACAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Entities\Album.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BrunaPhotographSystem.DomainModel.Entities.Cliente">
+    <Position X="2.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAACAAAAAEAAACAAAAAEAAAA=</HashCode>
+      <FileName>Entities\Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BrunaPhotographSystem.DomainModel.Entities.EntityBase&lt;EntityId&gt;">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\EntityBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BrunaPhotographSystem.DomainModel.Entities.Foto">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAABEAAAAAAAAAAAAAAAAAAAIAAACAEAAAA=</HashCode>
+      <FileName>Entities\Foto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BrunaPhotographSystem.DomainModel.Entities.FotoProduto">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQAAAAAE=</HashCode>
+      <FileName>Entities\FotoProduto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BrunaPhotographSystem.DomainModel.Entities.Pedido">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAEAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Pedido.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BrunaPhotographSystem.DomainModel.Entities.PedidoFotoProduto">
+    <Position X="10" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Entities\PedidoFotoProduto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BrunaPhotographSystem.DomainModel.Entities.Produto">
+    <Position X="2.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Entities\Produto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

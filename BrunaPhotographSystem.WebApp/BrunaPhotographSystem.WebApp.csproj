@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>c6cbe95e-b355-4c61-84ab-3309b1680203</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\**" />
+    <Compile Remove="Views\Home\**" />
+    <Content Remove="Migrations\**" />
+    <Content Remove="Views\Home\**" />
+    <EmbeddedResource Remove="Migrations\**" />
+    <EmbeddedResource Remove="Views\Home\**" />
+    <None Remove="Migrations\**" />
+    <None Remove="Views\Home\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="ApplicationContext.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\dados\Fotografa.mdf" />
+    <Content Remove="wwwroot\dados\Fotografa_log.ldf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\index.css" />
+    <None Include="wwwroot\css\reset.css" />
+    <None Include="wwwroot\dados\Fotografa.mdf" />
+    <None Include="wwwroot\dados\Fotografa_log.ldf" />
+    <None Include="wwwroot\images\facebook.png" />
+    <None Include="wwwroot\images\foto2.jpg" />
+    <None Include="wwwroot\images\foto3.jpg" />
+    <None Include="wwwroot\images\HeaderBack.jpg" />
+    <None Include="wwwroot\images\Trabalho1.jpg" />
+    <None Include="wwwroot\images\Trabalho2.jpg" />
+    <None Include="wwwroot\images\Trabalho3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CoreCompat.System.Drawing.v2" Version="5.2.0-preview1-r131" />
+    <PackageReference Include="dropzone" Version="4.3.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.CookiePolicy" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.HttpsPolicy" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Azure.Storage.Blob" Version="11.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.6" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="2.2.0" />
+    <PackageReference Include="System-Web-Helpers.dll" Version="1.0.0" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="WebCropImage" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BrunaPhotographSystem.ApiClient\BrunaPhotographSystem.ApiClient.csproj" />
+    <ProjectReference Include="..\BrunaPhotographSystem.DomainModel\BrunaPhotographSystem.DomainModel.csproj" />
+    <ProjectReference Include="..\BrunaPhotographSystem.DomainService\BrunaPhotographSystem.DomainService.csproj" />
+    <ProjectReference Include="..\BrunaPhotographSystem.InfraStructure.AzureQueue\BrunaPhotographSystem.InfraStructure.AzureQueue.csproj" />
+    <ProjectReference Include="..\BrunaPhotographSystem.InfraStructure.AzureStorage\BrunaPhotographSystem.InfraStructure.AzureStorage.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Authentication.Cookies">
+      <HintPath>..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.authentication.cookies\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Cookies.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

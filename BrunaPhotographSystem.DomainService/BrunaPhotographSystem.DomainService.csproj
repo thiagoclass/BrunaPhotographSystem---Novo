@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CoreCompat.System.Drawing.v2" Version="5.2.0-preview1-r131" />
+    <PackageReference Include="Microsoft.Azure.Storage.Blob" Version="10.0.3" />
+    <PackageReference Include="Microsoft.NETCore.Platforms" Version="3.0.0-preview5.19224.8" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.7.0-preview5.19224.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BrunaPhotographSystem.DomainModel\BrunaPhotographSystem.DomainModel.csproj" />
+    <ProjectReference Include="..\BrunaPhotographSystem.InfraStructure.AzureStorage\BrunaPhotographSystem.InfraStructure.AzureStorage.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Http.Abstractions">
+      <HintPath>..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.http.abstractions\2.1.1\lib\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

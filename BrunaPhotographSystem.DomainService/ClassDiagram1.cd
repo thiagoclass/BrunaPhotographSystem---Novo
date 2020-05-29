@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BrunaPhotographSystem.DomainService.Services.AlbumService" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAACAABAAAAQIAAAgEAAQAAAAAAAAAgAAAAAIA=</HashCode>
+      <FileName>Services\AlbumService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BrunaPhotographSystem.DomainService.Services.ClienteService" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAQAAAAgEABAAAAAAAAAAgAAAAAIA=</HashCode>
+      <FileName>Services\ClienteService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BrunaPhotographSystem.DomainService.Services.FileServerService" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Services\FileServerService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BrunaPhotographSystem.DomainService.Services.FotoProdutoService" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAQAAAggEAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Services\FotoProdutoService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BrunaPhotographSystem.DomainService.Services.FotoService" BaseTypeListCollapsed="true">
+    <Position X="6" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIABAAQAAABAAAAQAAAAgEAAAAAAAAAAKAgAAAAAAA=</HashCode>
+      <FileName>Services\FotoService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BrunaPhotographSystem.DomainService.Services.PedidoFotoProdutoService" BaseTypeListCollapsed="true">
+    <Position X="1" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAQAAAAgEAAAAiAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Services\PedidoFotoProdutoService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BrunaPhotographSystem.DomainService.Services.PedidoService" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAABEAAAQIAAAgEAAAEAAEEAAAAgAAAAAAA=</HashCode>
+      <FileName>Services\PedidoService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BrunaPhotographSystem.DomainService.Services.ProdutoService" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAQAAAAgEAAAAAAAAAAAAgAAAAAIA=</HashCode>
+      <FileName>Services\ProdutoService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BrunaPhotographSystem.DomainService.EditorDeImagem">
+    <Position X="10.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>StaticServices\EditorDeImagem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
