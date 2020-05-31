@@ -1,0 +1,36 @@
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\BrunaPhotographSystem.DomainService.deps.json
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\BrunaPhotographSystem.DomainService.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\BrunaPhotographSystem.DomainService.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\BrunaPhotographSystem.DomainModel.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\BrunaPhotographSystem.DomainModel.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.xml
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainService\obj\Debug\netstandard2.0\BrunaPhotographSystem.DomainService.csprojAssemblyReference.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainService\obj\Debug\netstandard2.0\BrunaPhotographSystem.DomainService.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainService\obj\Debug\netstandard2.0\BrunaPhotographSystem.DomainService.AssemblyInfoInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainService\obj\Debug\netstandard2.0\BrunaPhotographSystem.DomainService.AssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainService\obj\Debug\netstandard2.0\BrunaPhotographSystem.DomainService.csproj.CopyComplete
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainService\obj\Debug\netstandard2.0\BrunaPhotographSystem.DomainService.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainService\obj\Debug\netstandard2.0\BrunaPhotographSystem.DomainService.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\BrunaPhotographSystem.DomainService.deps.json
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\BrunaPhotographSystem.DomainService.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\BrunaPhotographSystem.DomainService.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\BrunaPhotographSystem.DomainModel.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\BrunaPhotographSystem.DomainModel.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainService\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.xml
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainService\obj\Debug\netstandard2.0\BrunaPhotographSystem.DomainService.csprojAssemblyReference.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainService\obj\Debug\netstandard2.0\BrunaPhotographSystem.DomainService.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainService\obj\Debug\netstandard2.0\BrunaPhotographSystem.DomainService.AssemblyInfoInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainService\obj\Debug\netstandard2.0\BrunaPhotographSystem.DomainService.AssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainService\obj\Debug\netstandard2.0\BrunaPhotographSystem.DomainService.csproj.CopyComplete
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainService\obj\Debug\netstandard2.0\BrunaPhotographSystem.DomainService.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainService\obj\Debug\netstandard2.0\BrunaPhotographSystem.DomainService.pdb

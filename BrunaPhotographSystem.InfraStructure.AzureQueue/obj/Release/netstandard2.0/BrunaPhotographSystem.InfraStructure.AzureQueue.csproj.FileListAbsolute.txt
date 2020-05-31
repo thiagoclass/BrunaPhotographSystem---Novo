@@ -1,0 +1,32 @@
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureQueue\bin\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.deps.json
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureQueue\bin\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureQueue\bin\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureQueue\bin\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureQueue\bin\Release\netstandard2.0\System.ComponentModel.Annotations.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureQueue\bin\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureQueue\bin\Release\netstandard2.0\System.ComponentModel.Annotations.xml
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureQueue\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.csprojAssemblyReference.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureQueue\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.Properties.Resources.resources
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureQueue\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.csproj.GenerateResource.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureQueue\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureQueue\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.AssemblyInfoInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureQueue\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.AssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureQueue\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.csproj.CopyComplete
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureQueue\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureQueue\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureQueue\bin\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.deps.json
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureQueue\bin\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureQueue\bin\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureQueue\bin\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureQueue\bin\Release\netstandard2.0\System.ComponentModel.Annotations.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureQueue\bin\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureQueue\bin\Release\netstandard2.0\System.ComponentModel.Annotations.xml
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureQueue\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.csprojAssemblyReference.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureQueue\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.Properties.Resources.resources
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureQueue\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.csproj.GenerateResource.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureQueue\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureQueue\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.AssemblyInfoInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureQueue\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.AssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureQueue\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.csproj.CopyComplete
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureQueue\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureQueue\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureQueue.pdb

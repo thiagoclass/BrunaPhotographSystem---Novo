@@ -1,0 +1,28 @@
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainModel\bin\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.deps.json
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainModel\bin\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainModel\bin\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainModel\bin\Release\netstandard2.0\Newtonsoft.Json.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainModel\bin\Release\netstandard2.0\System.ComponentModel.Annotations.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainModel\bin\Release\netstandard2.0\Newtonsoft.Json.xml
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainModel\bin\Release\netstandard2.0\System.ComponentModel.Annotations.xml
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainModel\obj\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.csprojAssemblyReference.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainModel\obj\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainModel\obj\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.AssemblyInfoInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainModel\obj\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.AssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainModel\obj\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.csproj.CopyComplete
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainModel\obj\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.DomainModel\obj\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainModel\bin\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.deps.json
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainModel\bin\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainModel\bin\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainModel\bin\Release\netstandard2.0\Newtonsoft.Json.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainModel\bin\Release\netstandard2.0\System.ComponentModel.Annotations.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainModel\bin\Release\netstandard2.0\Newtonsoft.Json.xml
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainModel\bin\Release\netstandard2.0\System.ComponentModel.Annotations.xml
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainModel\obj\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.csprojAssemblyReference.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainModel\obj\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainModel\obj\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.AssemblyInfoInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainModel\obj\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.AssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainModel\obj\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.csproj.CopyComplete
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainModel\obj\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.DomainModel\obj\Release\netstandard2.0\BrunaPhotographSystem.DomainModel.pdb

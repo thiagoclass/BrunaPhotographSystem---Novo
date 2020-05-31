@@ -1,0 +1,130 @@
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.deps.json
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.runtimeconfig.json
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.runtimeconfig.dev.json
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.Views.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.Views.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.ApiClient.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.DomainModel.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.DomainService.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.InfraStructure.AzureQueue.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.InfraStructure.AzureStorage.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.ApiClient.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.DomainModel.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.DomainService.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.InfraStructure.AzureQueue.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.InfraStructure.AzureStorage.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.csprojAssemblyReference.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.RazorAssemblyInfo.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.RazorAssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.AssemblyInfoInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.AssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.TagHelpers.input.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.TagHelpers.output.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.RazorCoreGenerate.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Album\Cadastro.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Album\Editar.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Album\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Album\Remover.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Cadastro.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Editar.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Remover.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Default\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Default\Responsivo.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Default\SistemaAdministrador.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Default\SistemaCliente.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Foto\Create.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Foto\Delete.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Foto\Edit.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Foto\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Foto\IndexSelect.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\AdicionarFotos.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Create.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Delete.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Edit.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\EditarFotos.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Produto\Create.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Produto\Delete.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Produto\Edit.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Produto\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.RazorTargetAssemblyInfo.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.RazorTargetAssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.Views.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.csproj.CopyComplete
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.deps.json
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.runtimeconfig.json
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.runtimeconfig.dev.json
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.Views.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.Views.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.DomainModel.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.DomainService.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.InfraStructure.AzureQueue.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.InfraStructure.AzureStorage.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.InfraStructure.DataAccess.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.DomainModel.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.DomainService.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.InfraStructure.AzureQueue.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.InfraStructure.AzureStorage.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.InfraStructure.DataAccess.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.csprojAssemblyReference.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.RazorAssemblyInfo.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.RazorAssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.AssemblyInfoInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.AssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.TagHelpers.input.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.TagHelpers.output.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.RazorCoreGenerate.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Album\Cadastro.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Album\Editar.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Album\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Album\Remover.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Cadastro.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Editar.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Remover.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Default\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Default\Responsivo.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Default\SistemaAdministrador.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Default\SistemaCliente.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Foto\Create.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Foto\Delete.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Foto\Edit.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Foto\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Foto\IndexSelect.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\AdicionarFotos.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Create.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Delete.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Edit.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\EditarFotos.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Produto\Create.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Produto\Delete.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Produto\Edit.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Produto\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.RazorTargetAssemblyInfo.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.RazorTargetAssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.Views.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.csproj.CopyComplete
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.WebApp\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.WebApp.pdb

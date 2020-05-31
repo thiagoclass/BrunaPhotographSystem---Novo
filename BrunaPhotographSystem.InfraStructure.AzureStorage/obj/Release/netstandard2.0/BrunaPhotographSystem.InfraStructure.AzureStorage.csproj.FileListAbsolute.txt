@@ -1,0 +1,22 @@
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureStorage\bin\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.deps.json
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureStorage\bin\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureStorage\bin\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureStorage\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.csprojAssemblyReference.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureStorage\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.Properties.Resources.resources
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureStorage\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.csproj.GenerateResource.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureStorage\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureStorage\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.AssemblyInfoInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureStorage\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.AssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureStorage\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.InfraStructure.AzureStorage\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureStorage\bin\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.deps.json
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureStorage\bin\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureStorage\bin\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureStorage\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.csprojAssemblyReference.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureStorage\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.Properties.Resources.resources
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureStorage\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.csproj.GenerateResource.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureStorage\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureStorage\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.AssemblyInfoInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureStorage\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.AssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureStorage\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem - Novo\BrunaPhotographSystem.InfraStructure.AzureStorage\obj\Release\netstandard2.0\BrunaPhotographSystem.InfraStructure.AzureStorage.pdb

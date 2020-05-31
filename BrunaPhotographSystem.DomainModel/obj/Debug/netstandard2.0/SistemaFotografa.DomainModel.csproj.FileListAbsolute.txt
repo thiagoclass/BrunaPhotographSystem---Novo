@@ -1,0 +1,14 @@
+C:\Users\thiag\source\repos\BrunaArt2\SistemaFotografa.DomainModel\bin\Debug\netstandard2.0\SistemaFotografa.DomainModel.deps.json
+C:\Users\thiag\source\repos\BrunaArt2\SistemaFotografa.DomainModel\bin\Debug\netstandard2.0\SistemaFotografa.DomainModel.dll
+C:\Users\thiag\source\repos\BrunaArt2\SistemaFotografa.DomainModel\bin\Debug\netstandard2.0\SistemaFotografa.DomainModel.pdb
+C:\Users\thiag\source\repos\BrunaArt2\SistemaFotografa.DomainModel\obj\Debug\netstandard2.0\SistemaFotografa.DomainModel.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\BrunaArt2\SistemaFotografa.DomainModel\obj\Debug\netstandard2.0\SistemaFotografa.DomainModel.AssemblyInfoInputs.cache
+C:\Users\thiag\source\repos\BrunaArt2\SistemaFotografa.DomainModel\obj\Debug\netstandard2.0\SistemaFotografa.DomainModel.AssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaArt2\SistemaFotografa.DomainModel\obj\Debug\netstandard2.0\SistemaFotografa.DomainModel.dll
+C:\Users\thiag\source\repos\BrunaArt2\SistemaFotografa.DomainModel\obj\Debug\netstandard2.0\SistemaFotografa.DomainModel.pdb
+C:\Users\thiag\source\repos\BrunaArt2\SistemaFotografa.DomainModel\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.dll
+C:\Users\thiag\source\repos\BrunaArt2\SistemaFotografa.DomainModel\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.xml
+C:\Users\thiag\source\repos\BrunaArt2\SistemaFotografa.DomainModel\obj\Debug\netstandard2.0\SistemaFotografa.DomainModel.csproj.CopyComplete
+C:\Users\thiag\source\repos\BrunaArt2\SistemaFotografa.DomainModel\obj\Debug\netstandard2.0\SistemaFotografa.DomainModel.csprojAssemblyReference.cache
+C:\Users\thiag\source\repos\BrunaArt2\SistemaFotografa.DomainModel\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
+C:\Users\thiag\source\repos\BrunaArt2\SistemaFotografa.DomainModel\bin\Debug\netstandard2.0\Newtonsoft.Json.xml

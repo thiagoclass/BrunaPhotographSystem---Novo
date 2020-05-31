@@ -1,0 +1,116 @@
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.csprojAssemblyReference.cache
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.RazorAssemblyInfo.cache
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.RazorAssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.AssemblyInfoInputs.cache
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.AssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.TagHelpers.input.cache
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.TagHelpers.output.cache
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.RazorCoreGenerate.cache
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Album\Cadastro.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Album\Editar.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Album\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Album\Remover.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Cadastro.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Editar.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Remover.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Default\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Default\Responsivo.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Default\SistemaAdministrador.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Default\SistemaCliente.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Foto\Create.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Foto\Delete.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Foto\Edit.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Foto\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Foto\IndexSelect.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\AdicionarFotos.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Create.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Delete.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Edit.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\EditarFotos.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Produto\Create.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Produto\Delete.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Produto\Edit.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Produto\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.RazorTargetAssemblyInfo.cache
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.RazorTargetAssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.dll
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.pdb
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.Presentation.deps.json
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.Presentation.runtimeconfig.json
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.Presentation.runtimeconfig.dev.json
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.Presentation.dll
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.Presentation.pdb
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.Presentation.Views.dll
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.Presentation.Views.pdb
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.DomainModel.dll
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.DomainService.dll
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.InfraStructure.AzureStorage.dll
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.InfraStructure.DataAccess.dll
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.DomainModel.pdb
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.DomainService.pdb
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.InfraStructure.AzureStorage.pdb
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.InfraStructure.DataAccess.pdb
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.Views.pdb
+C:\Users\thiag\source\repos\BrunaArt2\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.csproj.CopyComplete
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.Presentation.deps.json
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.Presentation.runtimeconfig.json
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.Presentation.runtimeconfig.dev.json
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.Presentation.dll
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.Presentation.pdb
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.Presentation.Views.dll
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.Presentation.Views.pdb
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.DomainModel.dll
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.DomainService.dll
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.InfraStructure.AzureStorage.dll
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.InfraStructure.DataAccess.dll
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.DomainModel.pdb
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.DomainService.pdb
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.InfraStructure.AzureStorage.pdb
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\bin\Debug\netcoreapp2.1\SistemaFotografa.InfraStructure.DataAccess.pdb
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.csprojAssemblyReference.cache
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.RazorAssemblyInfo.cache
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.RazorAssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.AssemblyInfoInputs.cache
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.AssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.TagHelpers.input.cache
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.TagHelpers.output.cache
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.RazorCoreGenerate.cache
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Album\Cadastro.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Album\Editar.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Album\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Album\Remover.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Cadastro.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Editar.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Remover.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Default\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Default\Responsivo.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Default\SistemaAdministrador.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Default\SistemaCliente.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Foto\Create.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Foto\Delete.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Foto\Edit.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Foto\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Foto\IndexSelect.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\AdicionarFotos.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Create.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Delete.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Edit.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\EditarFotos.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Produto\Create.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Produto\Delete.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Produto\Edit.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\Razor\Views\Produto\Index.g.cshtml.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.RazorTargetAssemblyInfo.cache
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.RazorTargetAssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.Views.pdb
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.csproj.CopyComplete
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.dll
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\SistemaFotografa.Presentation.pdb
+C:\Users\thiag\source\repos\BrunaArt2 - Copia\BrunaArt2\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

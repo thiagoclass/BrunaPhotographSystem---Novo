@@ -1,0 +1,9 @@
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Usuarios\bin\Debug\netcoreapp2.0\BrunaPhotographSystem.Usuarios.deps.json
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Usuarios\bin\Debug\netcoreapp2.0\BrunaPhotographSystem.Usuarios.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Usuarios\bin\Debug\netcoreapp2.0\BrunaPhotographSystem.Usuarios.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Usuarios\obj\Debug\netcoreapp2.0\BrunaPhotographSystem.Usuarios.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Usuarios\obj\Debug\netcoreapp2.0\BrunaPhotographSystem.Usuarios.AssemblyInfoInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Usuarios\obj\Debug\netcoreapp2.0\BrunaPhotographSystem.Usuarios.AssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Usuarios\obj\Debug\netcoreapp2.0\BrunaPhotographSystem.Usuarios.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Usuarios\obj\Debug\netcoreapp2.0\BrunaPhotographSystem.Usuarios.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Usuarios\obj\Debug\netcoreapp2.0\BrunaPhotographSystem.Usuarios.csprojAssemblyReference.cache

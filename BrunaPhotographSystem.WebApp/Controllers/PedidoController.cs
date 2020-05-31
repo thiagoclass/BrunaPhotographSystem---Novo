@@ -7,34 +7,32 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using BrunaPhotographSystem.DomainModel.Entities;
 using BrunaPhotographSystem.DomainModel.Interfaces.Services;
-using BrunaPhotographSystem.ApiClient;
+
 
 namespace BrunaPhotographSystem.Presentation.Controllers
 {
     public class PedidoController : Controller
     {
-        private readonly OrderPedidoClient _apiOrderPedido;
-        private readonly CoreClienteClient _apiCoreCliente;
-        private readonly CoreProdutoClient _apiCoreProduto;
-        private readonly CoreAlbumClient _apiCoreAlbum;
-        private readonly CoreFotoClient _apiCoreFoto;
-        private readonly OrderFotoProdutoClient _apiFotoProduto;
-        private readonly OrderPedidoFotoProdutoClient _apiPedidoFotoProduto;
+        private readonly IPedidoService _pedidoService;
+        private readonly IClienteService _clienteService;
+        private readonly IProdutoService _produtoService;
+        private readonly IAlbumService _albumService;
+        private readonly IFotoService _fotoService;
+        private readonly IFotoProdutoService _fotoProdutoService;
+        private readonly IPedidoFotoProdutoService _pedidoFotoProdutoService;
         private readonly IHttpContextAccessor _httpContextAccessor;
         private ISession _session => _httpContextAccessor.HttpContext.Session;
-        private readonly IAmClient _apiIdentificacao;
 
-        public PedidoController(OrderPedidoClient apiOrderPedido, IHttpContextAccessor httpContextAccessor, CoreClienteClient apiCoreCliente, CoreProdutoClient apiCoreProduto, CoreAlbumClient apiCoreAlbum, CoreFotoClient apiCoreFoto, OrderFotoProdutoClient apiFotoProduto, OrderPedidoFotoProdutoClient apiPedidoFotoProduto, IAmClient apiIdentificacao)
+        public PedidoController(IPedidoService pedidoService, IHttpContextAccessor httpContextAccessor, IClienteService clienteService, IProdutoService produtoService, IAlbumService albumService, IFotoService fotoService, IFotoProdutoService fotoProdutoService, IPedidoFotoProdutoService pedidoFotoProdutoService)
         {
-            _apiOrderPedido = apiOrderPedido;
+            _pedidoService = pedidoService;
             _httpContextAccessor = httpContextAccessor;
-            _apiCoreCliente = apiCoreCliente;
-            _apiCoreProduto = apiCoreProduto;
-            _apiCoreAlbum = apiCoreAlbum;
-            _apiCoreFoto = apiCoreFoto;
-            _apiPedidoFotoProduto = apiPedidoFotoProduto;
-            _apiFotoProduto = apiFotoProduto;
-            _apiIdentificacao = apiIdentificacao;
+            _clienteService = clienteService;
+            _produtoService = produtoService;
+            _albumService = albumService;
+            _fotoService = fotoService;
+            _pedidoFotoProdutoService = pedidoFotoProdutoService;
+            _fotoProdutoService = fotoProdutoService;
         }
 
         public IActionResult VoltarAoSite()
@@ -50,8 +48,8 @@ namespace BrunaPhotographSystem.Presentation.Controllers
         {
 
             IEnumerable<PedidoFotoProduto> fotosDoProdutoSelecionadas = new List<PedidoFotoProduto>();
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            var albuns = _apiCoreAlbum.BuscarTodosDoCliente((Cliente)_session.Get<Cliente>("cliente"),token).Result;
+            
+            var albuns = _albumService.BuscarTodosDoCliente((Cliente)_session.Get<Cliente>("cliente"));
             if (_session.Get<IEnumerable<PedidoFotoProduto>>("FotosSelecionadas") != null && _session.Get<IEnumerable<PedidoFotoProduto>>("FotosSelecionadas").Count() > 0)
             {
                 if (_session.Get<IEnumerable<PedidoFotoProduto>>("FotosDoProdutoSelecionadas") == null)
@@ -75,7 +73,7 @@ namespace BrunaPhotographSystem.Presentation.Controllers
             foreach (var album in albuns)
             {
                 
-                fotos.AddRange(_apiCoreFoto.BuscarTodosDoAlbum(album, token).Result);
+                fotos.AddRange(_fotoService.BuscarTodosDoAlbum(album));
             }
             if (fotosDoProdutoSelecionadas != null)
             {
@@ -105,12 +103,12 @@ namespace BrunaPhotographSystem.Presentation.Controllers
         }
         public IActionResult EditarFotos(Guid pedido, Guid produto)
         {
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
+            
             IEnumerable<PedidoFotoProduto> fotosDoProdutoSelecionadas;
-            var albuns = _apiCoreAlbum.BuscarTodosDoCliente((Cliente)_session.Get<Cliente>("cliente"),token).Result;
+            var albuns = _albumService.BuscarTodosDoCliente((Cliente)_session.Get<Cliente>("cliente"));
             if (_session.Get("FotosSelecionadas") == null)
             {
-                fotosDoProdutoSelecionadas = _apiPedidoFotoProduto.BuscarTodosDoPedido(pedido,token).Result.Where(p => p.FotoProduto.Produto.Id == produto);
+                fotosDoProdutoSelecionadas = _pedidoFotoProdutoService.BuscarTodosDoPedido(pedido).Where(p => p.FotoProduto.Produto.Id == produto);
             }
             else
             {
@@ -127,7 +125,7 @@ namespace BrunaPhotographSystem.Presentation.Controllers
             foreach (var album in albuns)
             {
                 
-                fotos.AddRange(_apiCoreFoto.BuscarTodosDoAlbum(album,token).Result);
+                fotos.AddRange(_fotoService.BuscarTodosDoAlbum(album));
             }
             foreach (var foto in fotosDoProdutoSelecionadas)
             {
@@ -173,8 +171,8 @@ namespace BrunaPhotographSystem.Presentation.Controllers
             {
                 return RedirectToAction("VoltarAoSite");
             }
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            return View(_apiOrderPedido.BuscarTodosPedidos(token).Result);
+            
+            return View(_pedidoService.BuscarTodos());
         }
         public IActionResult Create(Guid id, DateTime Data)
         {
@@ -192,8 +190,8 @@ namespace BrunaPhotographSystem.Presentation.Controllers
 
             var clientes = _session.Get<Cliente>("cliente");
             ViewBag.Clientes = clientes;
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            var produtos = _apiCoreProduto.BuscarTodosProdutos(token).Result;
+            
+            var produtos = _produtoService.BuscarTodos();
             ViewBag.Produtos = produtos;
             Pedido pedido;
             if (id == Guid.Empty)
@@ -262,15 +260,15 @@ namespace BrunaPhotographSystem.Presentation.Controllers
             }
             var clientes = _session.Get<Cliente>("cliente");
             ViewBag.Clientes = clientes;
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            var produtos = _apiCoreProduto.BuscarTodosProdutos(token).Result;
+            
+            var produtos = _produtoService.BuscarTodos();
             ViewBag.Produtos = produtos;
             _session.Set<Guid>("pedido", id);
             ViewBag.PedidoId = id;
             IEnumerable<PedidoFotoProduto> fotosSelecionadas;
             if (_session.Get("FotosSelecionadas") == null)
             {
-                fotosSelecionadas = _apiPedidoFotoProduto.BuscarTodosDoPedido(id,token).Result;
+                fotosSelecionadas = _pedidoFotoProdutoService.BuscarTodosDoPedido(id);
                 _session.Set<IEnumerable<PedidoFotoProduto>>("FotosSelecionadas", fotosSelecionadas);
             }
             else
@@ -298,29 +296,29 @@ namespace BrunaPhotographSystem.Presentation.Controllers
                 _session.Remove("FotosDoProdutoSelecionadas");
             }
             ViewBag.FotosSelecionadas = _session.Get<IEnumerable<PedidoFotoProduto>>("FotosSelecionadas");
-            return View(_apiOrderPedido.BuscarPedido(id,token).Result);
+            return View(_pedidoService.Buscar(id));
         }
         public IActionResult AtualizarPedido(Pedido pedido)
         {
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
+            
             IEnumerable<PedidoFotoProduto> fotoSelecionadas = _session.Get<IEnumerable<PedidoFotoProduto>>("FotosSelecionadas");
             foreach (var fotoSelecionada in fotoSelecionadas)
             {
 
-                _apiPedidoFotoProduto.Deletar(fotoSelecionada,token);
-                _apiFotoProduto.Deletar(fotoSelecionada.FotoProduto,token);
-                _apiFotoProduto.Criar(fotoSelecionada.FotoProduto,token);
-                _apiPedidoFotoProduto.Criar(fotoSelecionada,token);
+                _pedidoFotoProdutoService.Deletar(fotoSelecionada.Id);
+                _fotoProdutoService.Deletar(fotoSelecionada.FotoProduto.Id);
+                _fotoProdutoService.Criar(fotoSelecionada.FotoProduto);
+                _pedidoFotoProdutoService.Criar(fotoSelecionada);
 
             }
-            _apiOrderPedido.Atualizar(pedido,token);
+            _pedidoService.Atualizar(pedido);
             _session.SetString("Alertas", "Parabéns!!!| Você acabou de atualizar um pedido.");
             return RedirectToAction("Index");
         }
         public IActionResult RemoverPedido(Pedido pedido)
         {
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            _apiOrderPedido.Deletar(pedido,token);
+            
+            _pedidoService.Deletar(pedido.Id);
             _session.SetString("Alertas", "Parabéns!!!| Você acabou de excluir um pedido.");
             return RedirectToAction("Index");
 
@@ -338,20 +336,20 @@ namespace BrunaPhotographSystem.Presentation.Controllers
             {
                 return RedirectToAction("VoltarAoSite");
             }
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            return View(_apiOrderPedido.BuscarPedido(id,token).Result);
+            
+            return View(_pedidoService.Buscar(id));
         }
-        public async Task<IActionResult> CadastrarNovo(Pedido pedido)
+        public IActionResult CadastrarNovo(Pedido pedido)
         {
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
+            
             pedido.PedidoFotoProdutos = _session.Get<IEnumerable<PedidoFotoProduto>>("FotosSelecionadas").ToList();
-            await _apiOrderPedido.Criar(pedido,token);
+            _pedidoService.Criar(pedido);
             _session.SetString("Alertas", "Parabéns!!!| Você acabou de cadastrar um pedido.");
             return RedirectToAction("Index");
         }
         public IActionResult AdicionarAssociarFoto(Guid fotoAssociar)
         {
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
+            
             ViewBag.Fotos = _session.Get<IEnumerable<Foto>>("Fotos");
             ViewBag.FotosDoProdutoSelecionadas = _session.Get<IEnumerable<PedidoFotoProduto>>("FotosDoProdutoSelecionadas");
             ViewBag.Pedido = _session.Get<Guid>("Pedido");
@@ -361,13 +359,13 @@ namespace BrunaPhotographSystem.Presentation.Controllers
             var pedido = ViewBag.Pedido;
             var produto = ViewBag.Produto;
 
-            fotosDoProdutoSelecionadas = _apiOrderPedido.AssociarFotoAProdutoDeUmPedido(fotos, fotosDoProdutoSelecionadas.ToList(), fotoAssociar, produto, pedido,token).Result;
+            fotosDoProdutoSelecionadas = _pedidoService.AssociarFotoAProdutoDeUmPedido(fotos, fotosDoProdutoSelecionadas.ToList(), fotoAssociar, produto, pedido);
             _session.Set<IEnumerable<PedidoFotoProduto>>("FotosDoProdutoSelecionadas", fotosDoProdutoSelecionadas);
             return RedirectToAction("AdicionarFotos", new { produto = produto.ToString(), pedido = pedido.ToString(), dataPedido = _session.Get<String>("DataPedido").ToString() });
         }
         public IActionResult AdicionarDesassociarFoto(Guid fotoDesassociar)
         {
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
+            
             ViewBag.Fotos = _session.Get<IEnumerable<Foto>>("Fotos");
             ViewBag.FotosDoProdutoSelecionadas = _session.Get<IEnumerable<PedidoFotoProduto>>("FotosDoProdutoSelecionadas");
             ViewBag.Pedido = _session.Get<Guid>("Pedido");
@@ -377,13 +375,13 @@ namespace BrunaPhotographSystem.Presentation.Controllers
             var pedido = ViewBag.Pedido;
             var produto = ViewBag.Produto;
 
-            fotosDoProdutoSelecionadas = _apiOrderPedido.DesassociarFotoDeProdutoDeUmPedido(fotos, fotosDoProdutoSelecionadas.ToList(), fotoDesassociar, produto, pedido,token).Result;
+            fotosDoProdutoSelecionadas = _pedidoService.DesassociarFotoDeProdutoDeUmPedido(fotos, fotosDoProdutoSelecionadas.ToList(), fotoDesassociar, produto, pedido);
             _session.Set<IEnumerable<PedidoFotoProduto>>("FotosDoProdutoSelecionadas", fotosDoProdutoSelecionadas);
             return RedirectToAction("AdicionarFotos", new { produto = produto.ToString(), pedido = pedido.ToString(), dataPedido = _session.Get<String>("DataPedido").ToString() });
         }
         public IActionResult EditarAssociarFoto(Guid fotoAssociar)
         {
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
+            
             ViewBag.Fotos = _session.Get<IEnumerable<Foto>>("Fotos");
             ViewBag.FotosDoProdutoSelecionadas = _session.Get<IEnumerable<PedidoFotoProduto>>("FotosDoProdutoSelecionadas");
             ViewBag.Pedido = _session.Get<Guid>("Pedido");
@@ -393,13 +391,13 @@ namespace BrunaPhotographSystem.Presentation.Controllers
             var pedido = ViewBag.Pedido;
             var produto = ViewBag.Produto;
 
-            fotosDoProdutoSelecionadas = _apiOrderPedido.AssociarFotoAProdutoDeUmPedido(fotos, fotosDoProdutoSelecionadas.ToList(), fotoAssociar, produto, pedido,token).Result;
+            fotosDoProdutoSelecionadas = _pedidoService.AssociarFotoAProdutoDeUmPedido(fotos, fotosDoProdutoSelecionadas.ToList(), fotoAssociar, produto, pedido);
             _session.Set<IEnumerable<PedidoFotoProduto>>("FotosDoProdutoSelecionadas", fotosDoProdutoSelecionadas);
             return RedirectToAction("EditarFotos", new { produto = produto.ToString(), pedido = pedido.ToString() });
         }
         public IActionResult EditarDesassociarFoto(Guid fotoDesassociar)
         {
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
+            
             ViewBag.Fotos = _session.Get<IEnumerable<Foto>>("Fotos");
             ViewBag.FotosDoProdutoSelecionadas = _session.Get<IEnumerable<PedidoFotoProduto>>("FotosDoProdutoSelecionadas");
             ViewBag.Pedido = _session.Get<Guid>("Pedido");
@@ -409,7 +407,7 @@ namespace BrunaPhotographSystem.Presentation.Controllers
             var pedido = ViewBag.Pedido;
             var produto = ViewBag.Produto;
 
-            fotosDoProdutoSelecionadas = _apiOrderPedido.DesassociarFotoDeProdutoDeUmPedido(fotos, fotosDoProdutoSelecionadas.ToList(), fotoDesassociar, produto, pedido, token).Result;
+            fotosDoProdutoSelecionadas = _pedidoService.DesassociarFotoDeProdutoDeUmPedido(fotos, fotosDoProdutoSelecionadas.ToList(), fotoDesassociar, produto, pedido);
             _session.Set<IEnumerable<PedidoFotoProduto>>("FotosDoProdutoSelecionadas", fotosDoProdutoSelecionadas);
             return RedirectToAction("EditarFotos", new { produto = produto.ToString(), pedido = pedido.ToString() });
         }

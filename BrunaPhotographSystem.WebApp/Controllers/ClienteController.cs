@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using BrunaPhotographSystem.DomainModel.Entities;
 
 using BrunaPhotographSystem.DomainModel.Interfaces.Services;
-using BrunaPhotographSystem.ApiClient;
+
 
 namespace BrunaPhotographSystem.Presentation.Controllers
 {
@@ -15,12 +15,12 @@ namespace BrunaPhotographSystem.Presentation.Controllers
     {
         private readonly IHttpContextAccessor _httpContextAccessor;
         private ISession _session => _httpContextAccessor.HttpContext.Session;
-        private readonly IAmClient _apiIdentificacao;
-        private readonly CoreClienteClient _apiCore;
-        public ClienteController( IHttpContextAccessor httpContextAccessor, IAmClient apiIdentificacao, CoreClienteClient apiCore)
+        
+        private readonly IClienteService _clienteService;
+        public ClienteController( IHttpContextAccessor httpContextAccessor, IClienteService clienteService)
         {
-            _apiIdentificacao = apiIdentificacao;
-            _apiCore = apiCore;
+            
+            _clienteService = clienteService;
             _httpContextAccessor = httpContextAccessor;
         }
 
@@ -48,9 +48,9 @@ namespace BrunaPhotographSystem.Presentation.Controllers
             {
                 return RedirectToAction("VoltarAoSite");
             }
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
+            
 
-            var clientes = _apiCore.BuscarTodosClientes(token).Result;
+            var clientes = _clienteService.BuscarTodos();
             return View(clientes);
         }
         public IActionResult Cadastro()
@@ -81,15 +81,15 @@ namespace BrunaPhotographSystem.Presentation.Controllers
             {
                 return RedirectToAction("VoltarAoSite");
             }
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
+            
 
-            var cliente = _apiCore.BuscarCliente(id,token).Result;
+            var cliente = _clienteService.Buscar(id);
             return View(cliente);
         }
         public IActionResult AtualizarCliente(Cliente cliente)
         {
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            _apiCore.Atualizar(cliente, token);
+            
+            _clienteService.Atualizar(cliente);
 
             _session.SetString("Alertas", "Parabéns!!!| Você acabou de atualizar um cliente.");
             return RedirectToAction("Index");
@@ -97,8 +97,8 @@ namespace BrunaPhotographSystem.Presentation.Controllers
         public IActionResult RemoverCliente(Cliente cliente)
         {
 
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            _apiCore.Deletar(cliente, token);
+            
+            _clienteService.Deletar(cliente.Id);
             _session.SetString("Alertas", "Parabéns!!!| Você acabou de excluir um cliente.");
             return RedirectToAction("Index");
 
@@ -116,16 +116,16 @@ namespace BrunaPhotographSystem.Presentation.Controllers
             {
                 return RedirectToAction("VoltarAoSite");
             }
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
+            
 
-            var cliente = _apiCore.BuscarCliente(id,token).Result;
+            var cliente = _clienteService.Buscar(id);
             return View(cliente);
         }
         public IActionResult CadastrarNovo(Cliente cliente)
         {
 
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            _apiCore.Criar(cliente, token);
+            
+            _clienteService.Criar(cliente);
             _session.SetString("Alertas", "Parabéns!!!| Você acabou de cadastrar um cliente.");
             return RedirectToAction("Index");
         }

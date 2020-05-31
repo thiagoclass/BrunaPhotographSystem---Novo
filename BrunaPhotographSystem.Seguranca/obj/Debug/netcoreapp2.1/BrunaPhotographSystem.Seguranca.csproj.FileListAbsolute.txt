@@ -1,0 +1,12 @@
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Seguranca\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.Seguranca.deps.json
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Seguranca\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.Seguranca.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Seguranca\bin\Debug\netcoreapp2.1\BrunaPhotographSystem.Seguranca.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Seguranca\bin\Debug\netcoreapp2.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Seguranca\bin\Debug\netcoreapp2.1\Microsoft.IdentityModel.Tokens.xml
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Seguranca\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.Seguranca.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Seguranca\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.Seguranca.AssemblyInfoInputs.cache
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Seguranca\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.Seguranca.AssemblyInfo.cs
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Seguranca\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.Seguranca.csproj.CopyComplete
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Seguranca\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.Seguranca.dll
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Seguranca\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.Seguranca.pdb
+C:\Users\thiag\source\repos\BrunaPhotographSystem\BrunaPhotographSystem.Seguranca\obj\Debug\netcoreapp2.1\BrunaPhotographSystem.Seguranca.csprojAssemblyReference.cache

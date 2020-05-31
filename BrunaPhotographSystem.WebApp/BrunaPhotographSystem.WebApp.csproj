@@ -23,6 +23,7 @@
   <ItemGroup>
     <Content Remove="wwwroot\dados\Fotografa.mdf" />
     <Content Remove="wwwroot\dados\Fotografa_log.ldf" />
+    <Content Remove="wwwroot\js\AlbumScript - Cópia.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -65,11 +66,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BrunaPhotographSystem.ApiClient\BrunaPhotographSystem.ApiClient.csproj" />
     <ProjectReference Include="..\BrunaPhotographSystem.DomainModel\BrunaPhotographSystem.DomainModel.csproj" />
     <ProjectReference Include="..\BrunaPhotographSystem.DomainService\BrunaPhotographSystem.DomainService.csproj" />
     <ProjectReference Include="..\BrunaPhotographSystem.InfraStructure.AzureQueue\BrunaPhotographSystem.InfraStructure.AzureQueue.csproj" />
     <ProjectReference Include="..\BrunaPhotographSystem.InfraStructure.AzureStorage\BrunaPhotographSystem.InfraStructure.AzureStorage.csproj" />
+    <ProjectReference Include="..\BrunaPhotographSystem.InfraStructure.DataAccess\BrunaPhotographSystem.InfraStructure.DataAccess.csproj" />
   </ItemGroup>
 
   <ItemGroup>

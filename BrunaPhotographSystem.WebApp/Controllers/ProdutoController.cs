@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using BrunaPhotographSystem.DomainModel.Entities;
 using BrunaPhotographSystem.DomainModel.Interfaces.Repositories;
 using BrunaPhotographSystem.DomainModel.Interfaces.Services;
-using BrunaPhotographSystem.ApiClient;
+
 
 namespace BrunaPhotographSystem.Presentation.Controllers
 {
@@ -15,13 +15,12 @@ namespace BrunaPhotographSystem.Presentation.Controllers
     {
         private readonly IHttpContextAccessor _httpContextAccessor;
         private ISession _session => _httpContextAccessor.HttpContext.Session;
-        private readonly IAmClient _apiIdentificacao;
-        private readonly CoreProdutoClient _apiCore;
+        private readonly IProdutoService _produtoService;
 
-        public ProdutoController(IHttpContextAccessor httpContextAccessor, IAmClient apiIdentificacao, CoreProdutoClient apiCore)
+        public ProdutoController(IHttpContextAccessor httpContextAccessor, IProdutoService produtoService)
         {
-            _apiIdentificacao = apiIdentificacao;
-            _apiCore = apiCore;
+            
+            _produtoService = produtoService;
             _httpContextAccessor = httpContextAccessor;
         }
 
@@ -33,25 +32,25 @@ namespace BrunaPhotographSystem.Presentation.Controllers
 
         public IActionResult CadastrarNovo(Produto produto)
         {
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            _apiCore.Criar(produto,token);
+            
+            _produtoService.Criar(produto);
             _session.SetString("Alertas", "Muito bem!!!|Você acabou de cadastrar um produto!");
             return RedirectToAction("Index");
         }
 
         public IActionResult AtualizarProduto(Produto produto)
         {
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            _apiCore.Atualizar(produto, token);
+            
+            _produtoService.Atualizar(produto);
             _session.SetString("Alertas", "Muito bem!!!|Você acabou de atualizar informações de um Produto!");
             return RedirectToAction("Index");
         }
 
         public IActionResult RemoverProduto(Produto produto)
         {
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            produto = _apiCore.BuscarProduto(produto.Id, token).Result;
-            _apiCore.Deletar(produto, token);
+            
+            produto = _produtoService.Buscar(produto.Id);
+            _produtoService.Deletar(produto.Id);
             _session.SetString("Alertas", "Muito bem!!!|Você acabou de excluir um Produto!");
             return RedirectToAction("Index");
 
@@ -76,8 +75,8 @@ namespace BrunaPhotographSystem.Presentation.Controllers
             {
                 return RedirectToAction("VoltarAoSite");
             }
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            return View(_apiCore.BuscarTodosProdutos(token).Result);
+            
+            return View(_produtoService.BuscarTodos());
         }
 
 
@@ -113,8 +112,8 @@ namespace BrunaPhotographSystem.Presentation.Controllers
             {
                 return RedirectToAction("VoltarAoSite");
             }
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            return View(_apiCore.BuscarProduto(id,token).Result);
+            
+            return View(_produtoService.Buscar(id));
         }
 
 
@@ -132,8 +131,8 @@ namespace BrunaPhotographSystem.Presentation.Controllers
             {
                 return RedirectToAction("VoltarAoSite");
             }
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            return View(_apiCore.BuscarProduto(id,token).Result);
+            
+            return View(_produtoService.Buscar(id));
         }
 
 

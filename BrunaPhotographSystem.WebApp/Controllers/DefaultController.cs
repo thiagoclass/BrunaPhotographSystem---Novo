@@ -6,37 +6,37 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using BrunaPhotographSystem.DomainModel.Entities;
-using BrunaPhotographSystem.ApiClient;
+
 using System.Net.Http.Headers;
 using Microsoft.AspNetCore.Authorization;
+using BrunaPhotographSystem.DomainModel.Interfaces.Services;
 
 namespace BrunaPhotographSystem.Controllers
 {
     public class DefaultController : Controller
     {
-        //private readonly IClienteService _clienteService;
-        //private readonly IFotoService _fotoService;
+        private readonly IClienteService _clienteService;
+        private readonly IFotoService _fotoService;
         private readonly IHttpContextAccessor _httpContextAccessor;
         private ISession _session=> _httpContextAccessor.HttpContext.Session;
-        private readonly IAmClient _apiIdentificacao;
-        private readonly CoreClienteClient _apiCore;
 
-        public DefaultController(IHttpContextAccessor httpContextAccessor, IAmClient apiIdentificacao, CoreClienteClient apiCore)
+
+        public DefaultController(IHttpContextAccessor httpContextAccessor, IFotoService fotoService, IClienteService clienteService)
         {
             
             _httpContextAccessor = httpContextAccessor;
-            _apiIdentificacao = apiIdentificacao;
-            _apiCore = apiCore;
-
-
+            _clienteService = clienteService;
+            _fotoService = fotoService;
         }
+
         public IActionResult Index()
         {
             return View();
         }
         public IActionResult Responsivo()
         {
-            ViewBag.Fotos = null;// _fotoService.BuscarTodosDoAlbumPeloNome("Trabalhos").ToList();
+            ViewBag.Carrousel = _fotoService.BuscarTodosDoAlbumPeloNome("Carrousel").ToList();
+            ViewBag.Trabalhos = _fotoService.BuscarTodosDoAlbumPeloNome("Trabalhos").ToList();
             return View();
         }
         
@@ -47,16 +47,16 @@ namespace BrunaPhotographSystem.Controllers
         {
             try
             {
-                var token = _apiIdentificacao.Login(UserName, Password);
+                //var token = _apiIdentificacao.Login(UserName, Password);
 
                 _session.SetString("username", UserName); 
                 _session.SetString("password", Password);
-                var cliente = _apiCore.BuscarClientePorEmail(UserName, token.Result);
+                //var cliente = _apiCore.BuscarCliente(UserName, token.Result);
+                var cliente = _clienteService.BuscarPeloUsuario(UserName);
+                
+                _session.Set<Cliente>("cliente", cliente);
 
-
-                _session.Set<Cliente>("cliente", cliente.Result);
-
-                if (cliente.Result.Email == "brunartfotografia@gmail.com")
+                if (cliente.Email == "brunartfotografia@gmail.com")
                 {
                     return RedirectToAction("SistemaAdministrador");
                 }

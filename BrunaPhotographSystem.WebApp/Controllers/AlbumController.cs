@@ -11,7 +11,6 @@ using System.Drawing.Imaging;
 using System.Drawing;
 using BrunaPhotographSystem.DomainModel.Interfaces.Services;
 using Newtonsoft.Json;
-using BrunaPhotographSystem.ApiClient;
 using File = BrunaPhotographSystem.DomainModel.Entities.File;
 using BrunaPhotographSystem.DomainService;
 using BrunaPhotographSystem.DomainService.Services;
@@ -24,18 +23,17 @@ namespace BrunaPhotographSystem.Presentation.Controllers
         
         private readonly IHttpContextAccessor _httpContextAccessor;
         private ISession _session => _httpContextAccessor.HttpContext.Session;
-        private readonly IAmClient _apiIdentificacao;
-        private readonly CoreFotoClient _apiCoreFoto;
-        private readonly CoreAlbumClient _apiCoreAlbum;
-        private readonly CoreClienteClient _apiCoreCliente;
+        private readonly IFotoService _fotoService;
+        private readonly IAlbumService _albumService;
+        private readonly IClienteService _clienteService;
         
 
-        public AlbumController(IHttpContextAccessor httpContextAccessor, IAmClient apiIdentificacao, CoreFotoClient apiCoreFoto, CoreAlbumClient apiCoreAlbum, CoreClienteClient apiCoreCliente)
+        public AlbumController(IHttpContextAccessor httpContextAccessor,  IFotoService fotoService, IAlbumService albumService, IClienteService clienteService)
         {
-            _apiIdentificacao = apiIdentificacao;
-            _apiCoreFoto = apiCoreFoto;
-            _apiCoreAlbum = apiCoreAlbum;
-            _apiCoreCliente = apiCoreCliente;
+
+            _fotoService = fotoService;
+            _albumService = albumService;
+            _clienteService = clienteService;
             
             _httpContextAccessor = httpContextAccessor;
         }
@@ -58,8 +56,8 @@ namespace BrunaPhotographSystem.Presentation.Controllers
             {
                 return RedirectToAction("VoltarAoSite");
             }
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            var model = _apiCoreAlbum.BuscarTodosAlbuns(token).Result;
+            
+            var model = _albumService.BuscarTodos();
 
             return View(model);
         }
@@ -83,8 +81,8 @@ namespace BrunaPhotographSystem.Presentation.Controllers
             {
                 return RedirectToAction("VoltarAoSite");
             }
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            var clientes = _apiCoreCliente.BuscarTodosClientes(token).Result;
+            
+            var clientes = _clienteService.BuscarTodos();
             ViewBag.Clientes = clientes;
             Album album = new Album();
             return View(album);
@@ -102,8 +100,8 @@ namespace BrunaPhotographSystem.Presentation.Controllers
             {
                 return RedirectToAction("VoltarAoSite");
             }
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            return View(_apiCoreAlbum.BuscarAlbum(id,token).Result);
+            
+            return View(_albumService.Buscar(id));
         }
         public async Task<IActionResult> AdicionarFotoDropZone(Guid id)
         {
@@ -123,10 +121,10 @@ namespace BrunaPhotographSystem.Presentation.Controllers
                 foto.Album.Id = id;
                 foto.Descricao = String.Empty;
                 foto.Nome = String.Empty;
-                var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
+                
                 foto.FotoUrl = FileServerService.UploadFile("_Foto", imagem.OpenReadStream(), BrunaPhotographSystem.InfraStructure.AzureStorage.Properties.Resources.AzureBlobContainer, imagem.ContentType, foto.Album.Id.ToString());
                 foto.MiniFotoUrl = FileServerService.UploadFile("_MiniFoto", new MemoryStream(miniImagemByte), BrunaPhotographSystem.InfraStructure.AzureStorage.Properties.Resources.AzureBlobContainer, imagem.ContentType, foto.Album.Id.ToString());
-                _apiCoreFoto.CriarComId(foto,token);
+                _fotoService.CriarComId(foto);
 
             }
             return Ok();
@@ -134,15 +132,15 @@ namespace BrunaPhotographSystem.Presentation.Controllers
 
         public IActionResult AtualizarAlbum(Album album)
         {
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            _apiCoreAlbum.Atualizar(album,token);
+            
+            _albumService.Atualizar(album);
             _session.SetString("Alertas", "Parabéns!!!| Você acabou de atualizar um album.");
             return RedirectToAction("Index");
         }
         public IActionResult RemoverAlbum(Album album)
         {
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            _apiCoreAlbum.Deletar(album,token);
+            
+            _albumService.Deletar(album.Id);
             _session.SetString("Alertas", "Parabéns!!!| Você acabou de excluir um album.");
             return RedirectToAction("Index");
 
@@ -160,13 +158,13 @@ namespace BrunaPhotographSystem.Presentation.Controllers
             {
                 return RedirectToAction("VoltarAoSite");
             }
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            return View(_apiCoreAlbum.BuscarAlbum(id,token).Result);
+            
+            return View(_albumService.Buscar(id));
         }
         public IActionResult CadastrarNovo(Album album)
         {
-            var token = _apiIdentificacao.Login(_session.GetString("username"), _session.GetString("password")).Result;
-            _apiCoreAlbum.Criar(album,token);
+            
+            _albumService.Criar(album);
             _session.SetString("Alertas", "Parabéns!!!| Você acabou de cadastrar um album.");
             return RedirectToAction("Index");
         }

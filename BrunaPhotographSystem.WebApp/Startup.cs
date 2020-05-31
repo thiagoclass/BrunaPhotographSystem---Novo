@@ -16,10 +16,14 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Newtonsoft.Json;
 using BrunaPhotographSystem;
-using BrunaPhotographSystem.ApiClient;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using BrunaPhotographSystem.DomainModel.Interfaces.CQRS;
 using BrunaPhotographSystem.InfraStructure.AzureQueue;
+using BrunaPhotographSystem.DomainModel.Interfaces.Services;
+using BrunaPhotographSystem.DomainService.Services;
+using BrunaPhotographSystem.DomainModel.Interfaces.Repositories;
+using BrunaPhotographSystem.InfraStructure.DataAccess.Repositories;
+using BrunaPhotographSystem.InfraStructure.DataAccess.Context;
 
 namespace BrunaPhotographSystem
 {
@@ -62,38 +66,24 @@ namespace BrunaPhotographSystem
             services.AddDistributedMemoryCache();
             services.AddSession();
             services.AddTransient<IQueue, AzureStorageQueue>();
-            services.AddHttpClient<CoreClienteClient>(client =>
-            {
-                client.BaseAddress = new Uri("https://localhost:5005/api/");
-            });
-            services.AddHttpClient<CoreProdutoClient>(client =>
-            {
-                client.BaseAddress = new Uri("https://localhost:5005/api/");
-            });
-            services.AddHttpClient<CoreAlbumClient>(client =>
-            {
-                client.BaseAddress = new Uri("https://localhost:5005/api/");
-            });
-            services.AddHttpClient<CoreFotoClient>(client =>
-            {
-                client.BaseAddress = new Uri("https://localhost:5005/api/");
-            });
-            services.AddHttpClient<OrderPedidoClient>(client =>
-            {
-                client.BaseAddress = new Uri("https://localhost:5007/api/");
-            });
-            services.AddHttpClient<OrderPedidoFotoProdutoClient>(client =>
-            {
-                client.BaseAddress = new Uri("https://localhost:5007/api/");
-            });
-            services.AddHttpClient<OrderFotoProdutoClient>(client =>
-            {
-                client.BaseAddress = new Uri("https://localhost:5007/api/");
-            });
-            services.AddHttpClient<IAmClient>(client =>
-            {
-                client.BaseAddress = new Uri("https://localhost:5001/api/");
-            });
+            services.AddTransient<IClienteRepository, ClienteEntityRepository>();
+            services.AddTransient<IClienteService, ClienteService>();
+            services.AddTransient<IFotoRepository, FotoEntityRepository>();
+            services.AddTransient<IFotoService, FotoService>();
+            services.AddTransient<IAlbumRepository, AlbumEntityRepository>();
+            services.AddTransient<IAlbumService, AlbumService>();
+            services.AddTransient<IProdutoRepository, ProdutoEntityRepository>();
+            services.AddTransient<IProdutoService, ProdutoService>();
+            services.AddTransient<IPedidoRepository, PedidoEntityRepository>();
+            services.AddTransient<IPedidoService, PedidoService>();
+            services.AddTransient<IFotoProdutoRepository, FotoProdutoEntityRepository>();
+            services.AddTransient<IFotoProdutoService, FotoProdutoService>();
+            services.AddTransient<IPedidoFotoProdutoRepository, PedidoFotoProdutoEntityRepository>();
+            services.AddTransient<IPedidoFotoProdutoService, PedidoFotoProdutoService>();
+            services.AddDbContext<FotografaContext>(options =>
+            options.UseSqlServer(
+            InfraStructure.DataAccess.Properties.Resources.ConnectionString));
+            
 
         }
 
